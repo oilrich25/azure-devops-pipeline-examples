@@ -7,11 +7,11 @@ parameters:
   - name: anka_vm_registry_address
     displayName: "Anka Registry Endpoint"
     type: string
-    default: 'http://YOUR_REGISTRY_ADDR:PORT'
+    default: 'https://anka.registry:8089'
   - name: anka_vm_name
     displayName: "Anka VM Template Name or UUID"
     type: string
-    default: '11.5.2'
+    default: '12.7.2'
   - name: anka_vm_tag_name
     displayName: "Anka VM Template Name or UUID"
     type: string
